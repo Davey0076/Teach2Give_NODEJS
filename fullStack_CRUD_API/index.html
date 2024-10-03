@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Management Feature</title>
+    <link rel="stylesheet" href="resetCSS.css">
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+
+   <nav>
+    <div class="add-new-product">
+        <button id="add-product-btn">Add New Product</button>
+    </div>
+    
+    <!-- Sort Buttons -->
+    <div class="sort-buttons">
+        <button id="sort-price-asc">Sort By Price (Ascending)</button>
+        <button id="sort-price-desc">Sort By Price (Descending)</button>
+        <button id="sort-date-asc">Sort By Date (Ascending)</button>
+        <button id="sort-date-desc">Sort By Date (Descending)</button>
+    </div>
+    
+    <!-- Filter By Price -->
+    <div class="filter-price">
+        <label for="priceFilter">Filter By Price:</label>
+        <input type="number" id="priceFilter" placeholder="Enter price" />
+        <button id="filter-btn">Filter</button>
+    </div>
+</nav>
+
+    <main>
+        <h1>Product Catalog</h1>
+
+    <div class="container">
+        <!-- Product Grid -->
+        <div id="productContainer">
+            <h2>Products</h2>
+            <!-- Products will be dynamically added here -->
+        </div>
+
+        <!-- Cart Section -->
+        
+        <div id="cartContainer">
+            <h2 id="cart__header">My Cart</h2>
+            
+            <!-- Cart items will be dynamically added here -->
+        </div>
+    </div>
+
+    </main>
+    <footer></footer>
+
+    
+   
+
+  
+    <!--dialog box for adding new products  -->
+   <!-- Dialog for Adding New Product -->
+<dialog id="addProductDialog">
+    <h2>Add New Product</h2>
+    <form id="addProductForm">
+        <label for="imageUrl">Image URL:</label>
+        <input type="text" id="imageUrl" name="imageUrl" required><br><br>
+        
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required><br><br>
+        
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" required><br><br>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+        
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required><br><br>
+        
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" required><br><br>
+
+        <button type="submit">Save Product</button>
+        <button type="button" id="closeDialogBtn">Close</button>
+    </form>
+</dialog>
+
+  <!-- Add a script tag to link the JavaScript file -->
+  <script src="scripts.js"></script>
+
+</body>
+</html>

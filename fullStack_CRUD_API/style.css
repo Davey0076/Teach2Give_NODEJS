@@ -1,0 +1,145 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container {
+    display: flex;
+    gap: 1rem;
+}
+
+#productContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem;
+    width: 75%;
+    padding: 2rem;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    background-color:bisque;
+}
+
+#cartContainer{
+    background-color: bisque;
+    width: 25%;
+    padding: 2rem;
+    border: 0.5px solid black;
+    border-radius: 8px;
+    position: relative;
+}
+
+#cart__header{
+    position: absolute;
+    top:-3rem;
+}
+
+
+
+.product-item, .cart-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    padding: 10px;
+    margin-bottom: 1.8rem;
+    background-color: white;
+}
+
+.product-item:hover, .cart-item:hover{
+    transform: scale(1.05);
+}
+
+img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+h2, h3 {
+    margin: 10px 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 1);
+    
+}
+dialog button:hover ,button:hover{
+    background-color: midnightblue;
+}
+
+.empty__message{
+    font-weight: bolder;
+    font-size: larger;
+    color: gray;
+}
+
+
+
+/* Additional styling for dialog (optional) */
+dialog {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    max-width: 400px;
+    width: 100%;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.3); /* Add a dimming background when the dialog is open */
+}
+
+form input, form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+form button:hover {
+    background-color: midnightblue;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    gap: 1rem;
+}
+
+.sort-buttons, .filter-price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+button, dialog button {
+    background-color: black;
+    color: white;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: midnightblue;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
