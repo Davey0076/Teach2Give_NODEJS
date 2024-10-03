@@ -1,0 +1,12 @@
+{
+  "name": "exercise1",
+  "version": "1.0.0",
+  "main": "directoryToTree.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
