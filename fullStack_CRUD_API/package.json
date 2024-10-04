@@ -1,17 +1,18 @@
 {
-  "name": "assignmenteight_cartmanagement",
+  "name": "fullstack_crud_api",
   "version": "1.0.0",
+  "main": "app.js",
   "type": "module",
-  "main": "index.js",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "chalk": "^5.3.0",
-    "uuid": "^10.0.0"
-  }
+  "description": ""
 }

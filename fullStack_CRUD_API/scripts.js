@@ -298,7 +298,7 @@ async function viewProduct(productId) {
             <p><strong>Date:</strong> ${product.date}</p>
             <p><strong>Location:</strong> ${product.location}</p>
             <p><strong>Company:</strong> ${product.company}</p>
-            <p><strong>Image URL:</strong> <a href="${product.imageUrl}" target="_blank">${product.imageUrl}</a></p>
+            <p><strong>Image:</strong> <img src="${product.imageUrl}" alt="${product.title}"></p>
             <button id="closeViewDialog">Close</button>
         `;
         

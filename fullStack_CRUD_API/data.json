@@ -1,13 +1,38 @@
-{
-  "products": [
-    {
-      "id": "20b3",
-      "imageUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-      "title": "Summer Music Festival",
-      "price": "50",
-      "date": "2021-08-20",
-      "location": "Central Park, New York City",
-      "company": "Music Festivals Inc."
-    }
-  ]
-}
+[
+  {
+    "id": 3,
+    "imageUrl": "https://dummyimage.com/400x300/00ff00/000",
+    "title": "Sample Product",
+    "price": "100",
+    "date": "2024-02-04",
+    "location": "Nyeri",
+    "company": "Music Festivals Inc."
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "title": "Summer Music Festival",
+    "price": "100",
+    "date": "2021-08-20",
+    "location": "Central Park, New York City",
+    "company": "Music Festivals Inc."
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://dummyimage.com/400x300/00ff00/000",
+    "title": "Sample Product",
+    "price": "100",
+    "date": "2024-02-04",
+    "location": "Nyeri",
+    "company": "Music Festivals Inc."
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "title": "Summer Music Festival",
+    "price": "100",
+    "date": "2021-08-20",
+    "location": "Central Park, New York City",
+    "company": "Music Festivals Inc."
+  }
+]

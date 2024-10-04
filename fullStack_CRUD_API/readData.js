@@ -1,8 +1,8 @@
-const fs = require('fs')
+import fs from 'fs';
 
 export const readData = () =>{
     const data = fs.readFileSync('./data.json', 'utf-8')
-    return  JSON.parse(data)
+    return JSON.parse(data)
 }
 
 export const writeData = (data) => {
