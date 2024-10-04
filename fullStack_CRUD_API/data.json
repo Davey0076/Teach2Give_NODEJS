@@ -1,14 +1,5 @@
 [
   {
-    "id": 3,
-    "imageUrl": "https://dummyimage.com/400x300/00ff00/000",
-    "title": "Sample Product",
-    "price": "100",
-    "date": "2024-02-04",
-    "location": "Nyeri",
-    "company": "Music Festivals Inc."
-  },
-  {
     "id": 2,
     "imageUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     "title": "Summer Music Festival",
@@ -18,21 +9,30 @@
     "company": "Music Festivals Inc."
   },
   {
+    "id": 2,
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Handbag",
+    "price": "400",
+    "date": "2024-10-04",
+    "location": "Nyeri, Kenya",
+    "company": "Look Wears and Fashion"
+  },
+  {
     "id": 3,
-    "imageUrl": "https://dummyimage.com/400x300/00ff00/000",
-    "title": "Sample Product",
-    "price": "100",
-    "date": "2024-02-04",
-    "location": "Nyeri",
-    "company": "Music Festivals Inc."
+    "imageUrl": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+    "title": "Wired headphones",
+    "price": "1210",
+    "date": "2024-07-24",
+    "location": "Nairobi",
+    "company": "Daugherty Tech Solutions"
   },
   {
     "id": 4,
-    "imageUrl": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "title": "Summer Music Festival",
-    "price": "100",
-    "date": "2021-08-20",
-    "location": "Central Park, New York City",
-    "company": "Music Festivals Inc."
+    "imageUrl": "https://plus.unsplash.com/premium_photo-1664392122271-a1aedb05a7c6?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dGVsZXZpc2lvbnxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Old school Television Set",
+    "price": "7900",
+    "date": "2022-10-11",
+    "location": "Kiambu, Kenya",
+    "company": "Old School Plugs"
   }
 ]
