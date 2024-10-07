@@ -42,7 +42,7 @@ The project is built with HTML, CSS, JavaScript, and Node.js for the backend, ha
     ```bash
     node app.js
     ```
-    The server will be running on `http://localhost:5000`.
+    The server will be running on `http://localhost:3000`.
 
 4. **Run the Frontend**:
     Open the `index.html` file in a browser or use a live server plugin to run the frontend.
